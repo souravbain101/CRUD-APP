@@ -1,17 +1,7 @@
 import mongoose from 'mongoose';
-import autoIncrement from 'mongoose-auto-increment';
 
-// const connection=(username,password)=>{
-//     const URL=`mongodb+srv://${username}:${password}@cluster0.lkqvzn4.mongodb.net/?retryWrites=true&w=majority`
-  
-//     mongoose.connect(URL,
-//     {
-//       useNewUrlParser: true,
-      
-//       useUnifiedTopology: true
-//     }
-//     );
-// autoIncrement.initialize(connection);
+
+
 
 
 

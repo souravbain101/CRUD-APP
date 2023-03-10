@@ -8,6 +8,7 @@ import Navbar from './component/Navbar';
 import AllUsers from './component/AllUsers';
 import CrudApp from './component/CrudApp';
 import{BrowserRouter,Routes,Route} from 'react-router-dom';
+import EditUser from './component/Edituser';
 
 
 
@@ -21,7 +22,8 @@ function App() {
 
       <Route path='/' element={<CrudApp/>}/>
       <Route path='/all' element={<AllUsers/>}/>
-      <Route path='add' element={<AddUser/>}/>
+      <Route path='/add' element={<AddUser/>}/>
+      <Route path='/edit/:id' element={<EditUser/>}/>
 
       </Routes>
 
